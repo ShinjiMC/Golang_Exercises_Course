@@ -1,0 +1,7 @@
+go 1.21.0
+
+use (
+	./1_Gorgeous_Lasagna
+	./2_Infiltration
+	./3_Weather
+)
