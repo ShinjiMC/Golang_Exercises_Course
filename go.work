@@ -4,4 +4,5 @@ use (
 	./1_Gorgeous_Lasagna
 	./2_Infiltration
 	./3_Weather
+	./4_Cars_Assemble
 )
