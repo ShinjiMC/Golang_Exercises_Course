@@ -1,32 +1,18 @@
+// Package main: show current weather of a current location
 package main
 
 import "fmt"
 
-func CanFastAttack(knightIsAwake bool) bool {
-	return !knightIsAwake
-}
-func CanSpy(knightIsAwake, archerIsAwake, prisonerIsAwake bool) bool {
-	return (knightIsAwake || archerIsAwake || prisonerIsAwake)
-}
+var CurrentCondition string //CurrentCondition is a current weather of a location.
+var CurrentLocation string  //CurrentLocation is a current city to find weather.
 
-func CanSignalPrisoner(archerIsAwake, prisonerIsAwake bool) bool {
-	return (!archerIsAwake && prisonerIsAwake)
-}
-
-func CanFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent bool) bool {
-	if (!archerIsAwake && petDogIsPresent) || (!petDogIsPresent && prisonerIsAwake && !archerIsAwake && !knightIsAwake) {
-		return true
-	}
-	return false
+func Forecast(city, condition string) string { //Forecast Func shows the current weather of a city.
+	CurrentLocation, CurrentCondition = city, condition
+	return CurrentLocation + " - current weather condition: " + CurrentCondition
 }
 
 func main() {
-	var knightIsAwake = false
-	var archerIsAwake = false
-	var prisonerIsAwake = true
-	var petDogIsPresent = true
-	fmt.Println("Puede Espiar: ", CanSpy(knightIsAwake, archerIsAwake, prisonerIsAwake))
-	fmt.Println("Puede Atacar Rapido: ", (CanFastAttack(knightIsAwake)))
-	fmt.Println("Puede Senalar: ", CanSignalPrisoner(archerIsAwake, prisonerIsAwake))
-	fmt.Println("Puede Rescatar: ", CanFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent))
+	CurrentCondition = "Sunny"
+	CurrentLocation = "Arequipa"
+	fmt.Println(Forecast(CurrentCondition, CurrentLocation))
 }
