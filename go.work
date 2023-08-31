@@ -10,4 +10,5 @@ use (
 	./7_Vehicule_Purchase
 	./8_BlackJack
 	./9_Need_Sped
+	./10_Card_Trick
 )
