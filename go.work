@@ -1,16 +1,17 @@
 go 1.21.0
 
 use (
-	./1_Gorgeous_Lasagna
-	./2_Infiltration
-	./3_Weather
-	./4_Cars_Assemble
-	./5_Tech_Palace
-	./6_Party_Robot
-	./7_Vehicule_Purchase
-	./8_BlackJack
-	./9_Need_Sped
+	./01_Gorgeous_Lasagna
+	./02_Infiltration
+	./03_Weather
+	./04_Cars_Assemble
+	./05_Tech_Palace
+	./06_Party_Robot
+	./07_Vehicule_Purchase
+	./08_BlackJack
+	./09_Need_Sped
 	./10_Card_Trick
 	./11_Randomness
 	./12_Bird_Watcher
+	./13_Lasagna_Master
 )
