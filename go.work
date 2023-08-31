@@ -9,4 +9,5 @@ use (
 	./6_Party_Robot
 	./7_Vehicule_Purchase
 	./8_BlackJack
+	./9_Need_Sped
 )
