@@ -6,4 +6,5 @@ use (
 	./3_Weather
 	./4_Cars_Assemble
 	./5_Tech_Palace
+	./6_Party_Robot
 )
