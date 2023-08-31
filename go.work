@@ -7,4 +7,5 @@ use (
 	./4_Cars_Assemble
 	./5_Tech_Palace
 	./6_Party_Robot
+	./7_Vehicule_Purchase
 )
