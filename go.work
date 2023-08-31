@@ -12,4 +12,5 @@ use (
 	./9_Need_Sped
 	./10_Card_Trick
 	./11_Randomness
+	./12_Bird_Watcher
 )
