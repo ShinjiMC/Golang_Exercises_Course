@@ -16,4 +16,5 @@ use (
 	./13_Lasagna_Master
 	./14_Booking_Beauty
 	./15_Gross_Store
+	./16_Chessboard
 )
