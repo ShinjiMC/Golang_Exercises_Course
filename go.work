@@ -17,4 +17,5 @@ use (
 	./14_Booking_Beauty
 	./15_Gross_Store
 	./16_Chessboard
+	./17_LogsLogsLogs
 )
