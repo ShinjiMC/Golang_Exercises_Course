@@ -20,4 +20,5 @@ use (
 	./17_LogsLogsLogs
 	./18_ElectionDay
 	./19_ElonToys
+	./20_Census
 )
