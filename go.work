@@ -22,4 +22,5 @@ use (
 	./19_ElonToys
 	./20_Census
 	./21_Interest_Interesting
+	./22_Parsing_LogsFile
 )
