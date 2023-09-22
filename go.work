@@ -24,4 +24,5 @@ use (
 	./21_Interest_Interesting
 	./22_Parsing_LogsFile
 	./23_Airport_Robot
+	./24_Sorting_Room
 )
