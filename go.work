@@ -25,4 +25,5 @@ use (
 	./22_Parsing_LogsFile
 	./23_Airport_Robot
 	./24_Sorting_Room
+	./25_Meteorology
 )
