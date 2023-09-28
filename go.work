@@ -26,4 +26,5 @@ use (
 	./23_Airport_Robot
 	./24_Sorting_Room
 	./25_Meteorology
+	./26_The_Farm
 )
