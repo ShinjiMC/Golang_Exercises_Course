@@ -27,4 +27,5 @@ use (
 	./24_Sorting_Room
 	./25_Meteorology
 	./26_The_Farm
+	./27_Expenses
 )
